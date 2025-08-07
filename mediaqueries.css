@@ -44,21 +44,15 @@
 
 }
 
-@media screen and (max-width: 768px) {
-    .section-container {
-        flex-direction: column; /* Stack vertically on smaller screens */
-    }
-}
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 400px) {
     #contact,
     footer {
         height: 40vh;
     }
     #profile{
-        height: 83vh;
-        margin-bottom: 0;
+        height: 40vh;
     }
+
     article {
         font-size: 1rem;
     }
@@ -90,9 +84,10 @@
         text-align: center;
     }
     .section__pic-container {
-        width: auto;
-        height: 46vh;
+        width: 150px;
+        height: 150px;
         justify-content: center;
+        margin: 0 auto 1.5rem;
     }
     .section__text__p2 {
         font-size: 1.25rem;
