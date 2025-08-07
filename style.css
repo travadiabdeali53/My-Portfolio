@@ -148,8 +148,8 @@ a:hover {
 /* SECTIONS */
 
 section {
-    padding-top: 4hv;
-    height: 96hv;
+    padding-top: 0vh;
+    height: 96vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -320,7 +320,7 @@ section {
 
 #experience{
     position: relative;
-    margin-bottom: 7rem;
+    margin-bottom: 1.5rem;
 }
 
 .experience-sub-title {
