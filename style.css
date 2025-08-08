@@ -165,7 +165,7 @@ section {
     display: flex;
     justify-content: center;
     gap: 5rem;
-    height: 80vh;
+    height: 60vh;
 }
 
 .section__pic-container {
@@ -361,11 +361,18 @@ article .icon {
     height: 35px;
 }
 
+.arrow {
+    position: absolute;
+    right: -5rem;
+    bottom: auto;
+}
+
 
 /* PROJECTS SECTION */
 
 #projects {
     position: relative;
+    margin-bottom: auto;
 }
 
 .color-container {
@@ -395,7 +402,7 @@ article .icon {
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: 50vh;
 }
 
 .contact-info-upper-container {
