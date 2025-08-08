@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px) {
     #profile {
-        min-height: 60vh; /* Changed from height to min-height */
+        height: 60vh;
         margin-bottom: 6rem;
     }
     .about-containers {
@@ -23,14 +23,13 @@
     #profile,
     .section-container {
         display: block;
-        min-height: fit-content; /* Add this to allow flexible height */
     }
     .arrow {
         display: none;
     }
     section,
     .section-container {
-        height: fit-content; /* Changed from height to fit-content */
+        height: fit-content;
     }
     section {
         margin: 0 5%;
@@ -43,15 +42,16 @@
     .about-containers {
         margin-top: 0;
     }
+
 }
 
 @media screen and (max-width: 600px) {
     #contact,
     footer {
-        min-height: 35vh; /* Changed to min-height */
+        height: 35vh;
     }
-    #profile {
-        min-height: 50vh; /* Changed from height to min-height */
+    #profile{
+        height: 50vh;
     }
 
     article {
