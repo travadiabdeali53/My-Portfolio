@@ -48,10 +48,10 @@
 @media screen and (max-width: 600px) {
     #contact,
     footer {
-        height: 35vh;
+        height: 30vh;
     }
     #profile{
-        height: 50vh;
+        height: 40vh;
     }
 
     article {
