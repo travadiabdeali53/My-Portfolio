@@ -1,6 +1,6 @@
 @media screen and (max-width: 1400px) {
   #profile {
-    min-height: fit-content;
+    min-height: auto;
     height: 83vh;
     margin-bottom: 6rem;
   }
@@ -27,6 +27,7 @@
   #profile,
   .section-container {
     display: block;
+    height: auto;
   }
   .arrow {
     display: none;
@@ -36,7 +37,7 @@
     height: fit-content;
   }
   section {
-    margin: 0 5%;
+    margin: 0rem 5%;
   }
   .section__pic-container {
     width: 275px;
@@ -54,7 +55,7 @@
     height: 40vh;
   }
   #profile {
-    height: 65vh;
+    height: auto;
     margin-bottom: 0;
   }
   article {
