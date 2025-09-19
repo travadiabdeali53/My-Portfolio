@@ -63,7 +63,7 @@
   }
   footer nav {
     height: fit-content;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
   }
   .about-containers,
   .contact-info-upper-container,
@@ -101,5 +101,57 @@
   }
   .text-container {
     text-align: justify;
+  }
+}
+
+/* RESPONSIVE FOOTER STYLES */
+/* ---------------------- */
+@media (max-width: 768px) {
+  .footer-icons {
+    gap: 1rem;
+  }
+
+  .footer-icons a {
+    width: 70px; /* slightly smaller */
+  }
+
+  .footer-icons img {
+    width: 35px;
+    height: 35px;
+    padding: 8px;
+    margin-bottom: 4px;
+  }
+
+  .footer-icons a span {
+    font-size: 0.7rem;
+  }
+
+  footer p {
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-icons {
+    gap: 0.9rem;
+  }
+
+  .footer-icons a {
+    width: 60px; /* even smaller */
+  }
+
+  .footer-icons img {
+    width: 28px;
+    height: 28px;
+    padding: 6px;
+    margin-bottom: 3px;
+  }
+
+  .footer-icons a span {
+    font-size: 0.65rem;
+  }
+
+  footer p {
+    font-size: 0.8rem;
   }
 }
