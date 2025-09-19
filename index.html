@@ -9,6 +9,13 @@
     <link rel="stylesheet" href="mediaqueries.css" />
   </head>
   <body>
+    <!-- Preloader -->
+    <div id="preloader">
+      <div class="loader">
+        <div class="wave"></div>
+        <div class="percentage">0%</div>
+      </div>
+    </div>
     <nav id="desktop-nav">
       <div class="logo">Abdeali Travadi</div>
       <div>
@@ -105,8 +112,13 @@
           </div>
           <div class="text-container">
             <p>
-              Hi, I'm Abdeali Travadi.
-I'm a 2nd-year Computer Engineering student at Gyanmanjari Innovative University, Bhavnagar. I have a strong foundation in Python and web development using HTML, CSS, and JavaScript. I also have basic knowledge of Java and have worked on small-scale projects to sharpen my skills. I'm passionate about building creative and functional tech solutions, and I'm continuously learning to grow as a developer.
+              Hi, I'm Abdeali Travadi. I'm a 2nd-year Computer Engineering
+              student at Gyanmanjari Innovative University, Bhavnagar. I have a
+              strong foundation in Python and web development using HTML, CSS,
+              and JavaScript. I also have basic knowledge of Java and have
+              worked on small-scale projects to sharpen my skills. I'm
+              passionate about building creative and functional tech solutions,
+              and I'm continuously learning to grow as a developer.
             </p>
           </div>
         </div>
@@ -319,6 +331,8 @@ I'm a 2nd-year Computer Engineering student at Gyanmanjari Innovative University
     <section id="contact">
       <p class="section__text__p1">Get In Touch</p>
       <h1 class="title">Contact Me</h1>
+
+      <!-- Email + LinkedIn boxes (unchanged design) -->
       <div class="contact-info-upper-container">
         <div class="contact-info-container">
           <img
@@ -326,7 +340,11 @@ I'm a 2nd-year Computer Engineering student at Gyanmanjari Innovative University
             alt="Email icon"
             class="icon contact-icon email-icon"
           />
-          <p><a href="mailto:travadiabdeali83@gmail.com">travadiabdeali83@gmail.com</a></p>
+          <p>
+            <a href="mailto:travadiabdeali83@gmail.com">
+              travadiabdeali83@gmail.com
+            </a>
+          </p>
         </div>
         <div class="contact-info-container">
           <img
@@ -334,21 +352,49 @@ I'm a 2nd-year Computer Engineering student at Gyanmanjari Innovative University
             alt="LinkedIn icon"
             class="icon contact-icon"
           />
-          <p><a href="https://www.linkedin.com/in/abdeali-travadi">LinkedIn</a></p>
+          <p>
+            <a href="https://www.linkedin.com/in/abdeali-travadi">LinkedIn</a>
+          </p>
         </div>
       </div>
     </section>
+
     <footer>
-      <nav>
-        <div class="nav-links-container">
-          <ul class="nav-links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div>
-      </nav>
+      <div class="footer-icons">
+        <a href="https://github.com/travadiabdeali53" target="_blank">
+          <img src="./assets/github.png" alt="GitHub" />
+          <span>GitHub</span>
+        </a>
+        <a href="https://www.linkedin.com/in/abdeali-travadi" target="_blank">
+          <img src="./assets/linkedin.png" alt="LinkedIn" />
+          <span>LinkedIn</span>
+        </a>
+        <a href="https://wa.me/9727594553" target="_blank">
+          <img src="./assets/whatsapp.png" alt="WhatsApp" />
+          <span>WhatsApp</span>
+        </a>
+        <a href="https://www.instagram.com/travadiabdeali53" target="_blank">
+          <img src="./assets/instagram.png" alt="Instagram" />
+          <span>Instagram</span>
+        </a>
+        <a href="https://facebook.com" target="_blank">
+          <img src="./assets/facebook.png" alt="Facebook" />
+          <span>Facebook</span>
+        </a>
+        <a href="https://x.com/Abdeali_t_53/" target="_blank">
+          <img src="./assets/twitter.png" alt="Twitter X" />
+          <span>Twitter</span>
+        </a>
+        <a href="tel:+919727594553">
+          <img src="./assets/phone.png" alt="Phone" />
+          <span>Phone</span>
+        </a>
+        <a href="https://maps.app.goo.gl/Qxu8ZJh5UZ7L9mSw7" target="_blank">
+          <img src="./assets/location.png" alt="Location" />
+          <span>Location</span>
+        </a>
+      </div>
+
       <p>Copyright &#169; 2025 Abdeali Travadi. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
